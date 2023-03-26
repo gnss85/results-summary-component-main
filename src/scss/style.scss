@@ -1,0 +1,22 @@
+@use "./abstracts/" as *;
+
+/* ---- FOR DISPLAY ONLY ---- */
+body {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+/* ---- FOR DISPLAY ONLY ---- */
+
+.result {
+  h2 {
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-600);
+  }
+
+  &--score {
+  }
+
+  &--summary {
+  }
+}
