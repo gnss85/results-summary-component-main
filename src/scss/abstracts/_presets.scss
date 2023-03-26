@@ -19,13 +19,13 @@
 /* ---- CUSTOM PROPERTIES ---- */
 
 :root {
-  --light-red: hsl(0, 100%, 67%);
-  --orangey-yellow: hsl(39, 100%, 56%);
-  --green-teal: hsl(166, 100%, 37%);
-  --cobalt-blue: hsl(234, 85%, 45%);
+  --light-red: 0 100% 67%;
+  --orangey-yellow: 39 100% 56%;
+  --green-teal: 166 100% 37%;
+  --cobalt-blue: 234 85% 45%;
 
   --hsl-clr-primary: 256 72% 46%;
-  --hsl-clr-secondary: 241 72% 46%;
+  --hsl-clr-secondary: 241 72% 46% / 0;
 
   --hsl-clr-accent-400: 252 100% 67%;
   --hsl-clr-accent-600: 241 81% 54%;
@@ -68,6 +68,7 @@
   --fs-700: 1.5rem;
   --fs-800: 1.75rem;
   --fs-900: 2rem;
+  --fs-special: 4rem;
 
   --fs-attribution: 0.6875rem;
 }
