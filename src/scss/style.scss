@@ -243,6 +243,14 @@ body {
       background-color: var(--clr-neutral-800);
       font-size: var(--fs-400);
       font-weight: var(--fw-bold);
+
+      &:hover,
+      &:focus-visible {
+        background: linear-gradient(
+          hsl(var(--hsl-clr-accent-400)) 0%,
+          hsl(var(--hsl-clr-accent-600)) 90%
+        );
+      }
     }
   }
 }
